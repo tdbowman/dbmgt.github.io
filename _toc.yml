@@ -1,0 +1,61 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Getting Started
+    chapters:
+      - file: chapters/00-setup.md
+        title: Setting Up Your Environment
+      - file: chapters/01-intro-databases.md
+        title: Introduction to Databases
+
+  - caption: Database Foundations
+    chapters:
+      - file: chapters/02-relational-model.md
+        title: The Relational Data Model
+      - file: chapters/03-er-modeling.md
+        title: Entity-Relationship Modeling
+      - file: chapters/04-normalization.md
+        title: Database Normalization
+
+  - caption: SQL Fundamentals
+    chapters:
+      - file: chapters/05-intro-sql.md
+        title: Introduction to SQL
+      - file: notebooks/05-sql-basics-practice.ipynb
+        title: "Hands-On: SQL Basics"
+      - file: chapters/06-creating-tables.md
+        title: Creating and Modifying Tables
+      - file: notebooks/06-ddl-practice.ipynb
+        title: "Hands-On: DDL Practice"
+
+  - caption: Advanced SQL
+    chapters:
+      - file: chapters/07-advanced-sql.md
+        title: Advanced SQL Techniques
+      - file: notebooks/07-joins-subqueries.ipynb
+        title: "Hands-On: JOINs and Subqueries"
+      - file: chapters/08-advanced-sql-ii.md
+        title: Indexes, Triggers, and More
+      - file: notebooks/08-advanced-practice.ipynb
+        title: "Hands-On: Advanced SQL"
+
+  - caption: Beyond the Basics
+    chapters:
+      - file: chapters/09-cloud-databases.md
+        title: Cloud Databases
+      - file: chapters/10-web-integration.md
+        title: Python & Flask Integration
+      - file: notebooks/10-flask-postgres.ipynb
+        title: "Hands-On: Building a Web App"
+
+  - caption: Appendices
+    chapters:
+      - file: appendices/sql-cheat-sheet.md
+        title: SQL Cheat Sheet
+      - file: appendices/glossary.md
+        title: Glossary
+      - file: appendices/resources.md
+        title: Additional Resources

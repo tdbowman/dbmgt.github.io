@@ -1,0 +1,25 @@
+# Book settings
+title: "Introduction to Database Management"
+author: "Dr. Timothy D Bowman"
+copyright: "2025"
+logo: images/logo.png
+
+# Force re-execution of notebooks on each build
+execute:
+  execute_notebooks: "off"
+
+
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+# Information about where the book exists on the web
+project:
+  github: https://github.com/dbmgt.github.io/database-textbook
+
+# IMPORTANT: Set correct base URL
+site:
+  template: book-theme
+  options:
+    favicon: favicon.ico
