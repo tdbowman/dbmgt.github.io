@@ -30,15 +30,20 @@ A curated collection of resources to support your database learning journey.
 
 These are the primary readings for our course:
 
-1. **Rob & Coronel** - *Database Systems: Design, Implementation, & Management*
-2. **Silberschatz et al.** - *Database System Concepts*
-3. **Garcia-Molina et al.** - *Database Systems: The Complete Book*
+1. **Rob, P. & Coronel, C.** (2020). - *Database Systems: Design, Implementation, & Management*, 12th ed. Boston, MA, U.S.A.: Course Technology. （PDFs on Canvas）
+2. **Vidhya, V., Jeyaram, G., & Ishwarya, K.** (2016). *Database management systems*. Alpha Science International. (Link)[https://ebookcentral.proquest.com/lib/dom/detail.action?docID=5248352]
 
-### Additional Reading
-
-- **Itzik Ben-Gan** - *T-SQL Fundamentals* (SQL Server focused, but excellent for learning)
-- **Alan Beaulieu** - *Learning SQL* (O'Reilly)
-- **Anthony DeBarros** - *Practical SQL* (PostgreSQL focused)
+### Other Textbooks
+- **Campesato, O.** (2022). Dealing with data pocket primer. Mercury Learning & Information. [Ebook](https://ebookcentral.proquest.com/lib/dom/detail.action?docID=6975918)
+- **Garcia-Molina, H., Ullman, J.D., and Widom, J.** (2008). *Database Systems: The Complete Book.* Pearson: New Jersey. [Github](https://github.com/hexanome/Denmark/blob/master/Advanced%20Databases/Prentice.Hall.Database.Systems.The.Complete.Book.2nd.Edition.Jun.2008.pdf) 
+- **Luzanov, P., Rogov, E., and Levshin, I.** (2023). *PostgreSQL: The First Experience*, 9th edition. Postgres Professional: Moscow. [PDF](https://edu.postgrespro.ru/introbook_v9_en.pdf)
+- **Mortati, J., Wang, S., & Smith, J.** (2019). *Information Systems for Business and Beyond, Canadian Edition*. Fanshawe College Pressbooks: London, Ontario. [Ebook](https://opentextbook.site/informationsystems2019/)
+- **Rogov, E.** (2023). PostgreSQL 14 Internals. *Postgres Professional: Moscow*. [PDF](https://edu.postgrespro.com/postgresql_internals-14_en.pdf)
+- **Silberschatz, A., Korth, H.F., and Sudarshan, S.** (2020). *Database System Concepts*, 7th edition. McGraw-Hill. ISBN 0-07-295886-3. [Github](https://github.com/omarhosny206/Database-System-Concepts-7th-edition)  Codex at: [Codex](https://codex.cs.yale.edu/avi/db-book/)
+- **Watt, A.** (2014). *Database Design, 2nd edition*. BCcampus, Victoria, BC. [Ebook](https://opentextbc.ca/dbdesign01/)
+   
+#### Other Resources:
+- **Gomed, E.** (2023, Nov 30). *Understanding Database Normalization: From First to Sixth Normal Forms.* Medium.com. [Medium.com](https://medium.com/@evertongomede/understanding-database-normalization-from-first-to-sixth-normal-forms-76ce75fd63d2)
 
 ## Tools & Software
 
