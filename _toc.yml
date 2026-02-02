@@ -4,58 +4,121 @@
 format: jb-book
 root: intro
 parts:
-  - caption: Getting Started
+  - caption: 01 - Getting Started
     chapters:
-      - file: chapters/00-setup.md
-        title: Setting Up Your Environment
-      - file: chapters/01-intro-databases.md
-        title: Introduction to Databases
-
-  - caption: Database Foundations
+      - file: chapters/module01/overview.md
+        title: Overview
+      - file: chapters/module01/what-is-database.md
+        title: What is a database?
+      - file: chapters/module01/installing-postgres.md
+        title: Installing PostgreSQL
+      - file: chapters/module01/setup-dbeaver.md
+        title: Setting Up DBeaver
+  - caption: 02 - Relational Database Foundations
     chapters:
-      - file: chapters/02-relational-model.md
-        title: The Relational Data Model
-      - file: chapters/03-er-modeling.md
-        title: Entity-Relationship Modeling
-      - file: chapters/04-normalization.md
-        title: Database Normalization
-
-  - caption: SQL Fundamentals
+      - file: chapters/module02/overview.md
+        title: Overview
+      - file: chapters/module02/relational-model.md
+        title: The Relational Model
+      - file: chapters/module02/keys-constraints.md
+        title: Keys and Constraints
+  - caption: 03 - Entitry-Relationship Modeling
     chapters:
-      - file: chapters/05-intro-sql.md
+      - file: chapters/module03/overview.md
+        title: Overview
+      - file: chapters/module03/er-modeling.md
+        title: ER Modeling
+      - file: chapters/module03/er-diagrams.md
+        title: ER Diagrams and Notation
+  - caption: 04 - Normalization
+    chapters:
+      - file: chapters/module04/overview.md
+        title: Overview
+      - file: chapters/module04/normalization-basics.md
+        title: Normalization Basics
+      - file: chapters/module04/normal-forms.md
+        title: Normal Forms
+  - caption: 05 - Basic SQL
+    chapters:
+      - file: chapters/module05/overview.md
+        title: Overview
+      - file: chapters/module05/sql-intro.md
         title: Introduction to SQL
-      - file: notebooks/05-sql-basics-practice.ipynb
-        title: "Hands-On: SQL Basics"
-      - file: chapters/06-creating-tables.md
-        title: Creating and Modifying Tables
+      - file: chapters/module05/select-statements.md
+        title: SELECT Statements
+      - file: chapters/module05/sql-practice.ipynb
+        title: SQL Practice - Jupyter Notebook
+  - caption: 06 - SQL CRUD Operations
+    chapters:
+      - file: chapters/module06/overview.md
+        title: Overview
+      - file: chapters/module06/ddl-basics.md
+        title: DDL Basics
       - file: notebooks/06-ddl-practice.ipynb
-        title: "Hands-On: DDL Practice"
-
-  - caption: Advanced SQL
+        title: DDL Practice - Jupyter Notebook
+      - file: chapters/module06/create-alter-drop.md
+        title: Create, Alter, Drop
+  - caption: 07 - Advanced SQL
     chapters:
-      - file: chapters/07-advanced-sql.md
-        title: Advanced SQL Techniques
-      - file: notebooks/07-joins-subqueries.ipynb
-        title: "Hands-On: JOINs and Subqueries"
-      - file: chapters/08-advanced-sql-ii.md
-        title: Indexes, Triggers, and More
+      - file: chapters/module07/overview.md
+        title: Overview
+      - file: chapters/module07/joins.md
+        title: Joins
+      - file: chapters/module07/subqueries.md
+        title: Subqueries
+      - file: notebooks/07-joins-subqueries-practice.ipynb
+        title: Joins and Subqueries Practice - Jupyter Notebook
+      - file: chapters/module07/aggregation.md
+        title: Aggregation
+  - caption: 08 - Advanced SQL II
+    chapters:
+      - file: chapters/module08/overview.md
+        title: Overview
+      - file: chapters/module08/views-indexes.md
+        title: Views and Indexes
+      - file: chapters/module08/transactions.md
+        title: Transactions
+      - file: chapters/module08/stored-procedures.md
+        title: Stored Procedures
       - file: notebooks/08-advanced-practice.ipynb
-        title: "Hands-On: Advanced SQL"
-
-  - caption: Beyond the Basics
+        title: Advanced SQL Practice - Jupyter Notebook
+  - caption: 09 - Cloud Databases
     chapters:
-      - file: chapters/09-cloud-databases.md
+      - file: chapters/module09/overview.md
+        title: Overview
+      - file: chapters/module09/cloud-databases.md
         title: Cloud Databases
-      - file: chapters/10-web-integration.md
-        title: Python & Flask Integration
-      - file: notebooks/10-flask-postgres.ipynb
-        title: "Hands-On: Building a Web App"
-
-  - caption: Appendices
+      - file: chapters/module09/nosql-intro.md
+        title: NoSQL Introduction
+  - caption: 10 - Python & PostgreSQL Integration
     chapters:
-      - file: appendices/sql-cheat-sheet.md
-        title: SQL Cheat Sheet
-      - file: appendices/glossary.md
-        title: Glossary
-      - file: appendices/resources.md
-        title: Additional Resources
+      - file: chapters/module10/overview.md
+        title: Overview
+      - file: chapters/module10/python-postgres.md
+        title: Python and PostgreSQL
+      - file: chapters/module10/flask-basics.md
+        title: Flask Basics
+      - file: notebooks/10-flask-postgres.ipynb
+        title: Flask and PostgreSQL - Jupyter Notebook
+  - caption: 11 - Python & PostgreSQL - Web-based Application
+    chapters:
+      - file: chapters/module11/overview.md
+        title: Overview
+      - file: chapters/module11/web-app-project.md
+        title: Web-based Application Project
+  - caption: 12 - Other Types of Databases
+    chapters:
+      - file: chapters/module12/overview.md
+        title: Overview
+  - caption: 13 - Business Intelligence & Data Warehousing
+    chapters:
+      - file: chapters/module13/overview.md
+        title: Overview
+      - file: chapters/module13/business-intelligence.md
+        title: Business Intelligence
+  - caption: 14 - Security, Privacy, and Ethics
+    chapters:
+      - file: chapters/module14/overview.md
+        title: Overview
+      - file: chapters/module14/security-privacy.md
+        title: Database Security and Privacy
