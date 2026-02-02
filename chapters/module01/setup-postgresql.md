@@ -21,7 +21,7 @@ PostgreSQL (often called "Postgres") is a powerful, open-source relational datab
 1. **Download the Installer**
    - Go to [postgresql.org/download/windows](https://www.postgresql.org/download/windows/)
    - Click "Download the installer"
-   - Select the latest version (PostgreSQL 15 or 16)
+   - Select the latest version (PostgreSQL 18 or above)
 
 2. **Run the Installer**
    - Double-click the downloaded `.exe` file
@@ -61,7 +61,8 @@ PostgreSQL (often called "Postgres") is a powerful, open-source relational datab
 ```{warning}
 Remember your password! You'll need it to connect to PostgreSQL.
 ```
-
+<br>
+<br>
 ### macOS
 
 #### Option 1: Postgres.app (Recommended)
@@ -88,7 +89,8 @@ Remember your password! You'll need it to connect to PostgreSQL.
 brew install postgresql@16
 brew services start postgresql@16
 ```
-
+<br>
+<br>
 ### Linux (Ubuntu/Debian)
 
 ```bash
