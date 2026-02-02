@@ -1,10 +1,8 @@
 # Database Normalization
 
-```{epigraph}
-The key, the whole key, and nothing but the key—so help me Codd.
-
--- Database Designer's Oath (paraphrased from E.F. Codd's principles)
-```
+> *"The key, the whole key, and nothing but the key—so help me Codd."*
+>
+> — Database Designer's Oath (paraphrased from E.F. Codd's principles)
 
 Normalization is the process of organizing a database to reduce redundancy and improve data integrity. In this chapter, you'll learn why normalization matters and how to apply normal forms to create efficient database designs.
 
@@ -22,21 +20,14 @@ By the end of this chapter, you will be able to:
 
 Normalization addresses several problems that arise from poor table design:
 
-::::{grid} 3
+🔄 **Update Anomaly**
+: Changing data in one place but not others leads to inconsistent data.
 
-:::{grid-item-card} 🔄 Update Anomaly
-Changing data in one place but not others leads to inconsistent data.
-:::
+➕ **Insertion Anomaly**
+: Can't add certain data without adding unrelated data.
 
-:::{grid-item-card} ➕ Insertion Anomaly
-Can't add certain data without adding unrelated data.
-:::
-
-:::{grid-item-card} ➖ Deletion Anomaly
-Deleting data accidentally removes other important information.
-:::
-
-::::
+➖ **Deletion Anomaly**
+: Deleting data accidentally removes other important information.
 
 ### Example: A Poorly Designed Table
 
@@ -58,10 +49,8 @@ Consider this unnormalized SALES table:
 
 Before diving into normal forms, we need to understand **functional dependencies**.
 
-:::{glossary}
-Functional Dependency
-  A relationship where one attribute uniquely determines another. Written as A → B, meaning "A determines B."
-:::
+**Functional Dependency**
+: A relationship where one attribute uniquely determines another. Written as A → B, meaning "A determines B."
 
 **Examples:**
 - `employee_id → employee_name` (ID determines name)
