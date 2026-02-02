@@ -1,10 +1,8 @@
 # Introduction to SQL
 
-```{epigraph}
-SQL is everywhere. It's been around for over 50 years, and it's not going anywhere.
-
--- Industry Wisdom
-```
+> *"SQL is everywhere. It's been around for over 50 years, and it's not going anywhere."*
+>
+> — Industry Wisdom
 
 **Structured Query Language (SQL)** is the standard language for communicating with relational databases. Regardless of which DBMS you use—PostgreSQL, MySQL, Oracle, or SQL Server—you'll use SQL to create, query, and manipulate data.
 
@@ -21,10 +19,8 @@ By the end of this chapter, you will be able to:
 
 ## What Is SQL?
 
-:::{glossary}
-SQL (Structured Query Language)
-  A standardized programming language used to manage and manipulate relational databases. Pronounced "S-Q-L" or "sequel."
-:::
+**SQL (Structured Query Language)**
+: A standardized programming language used to manage and manipulate relational databases. Pronounced "S-Q-L" or "sequel."
 
 SQL was developed at IBM in the 1970s and has since become the universal language for relational databases. While each DBMS has its own extensions, the core SQL syntax is standardized by ANSI/ISO.
 
@@ -124,19 +120,19 @@ WHERE unit_price > 3.00;
 Combine conditions using AND, OR, and NOT:
 
 ```sql
--- Both conditions must be true
+> — Both conditions must be true
 SELECT *
 FROM sales
 WHERE product_category = 'Coffee' 
   AND unit_price > 3.00;
 
--- Either condition can be true
+> — Either condition can be true
 SELECT *
 FROM staff
 WHERE position = 'Manager' 
   OR position = 'Assistant Manager';
 
--- Negates a condition
+> — Negates a condition
 SELECT *
 FROM products
 WHERE NOT product_category = 'Food';
@@ -148,11 +144,11 @@ WHERE NOT product_category = 'Food';
 SQL evaluates NOT first, then AND, then OR. Use parentheses to make your intent clear:
 
 ```sql
--- Without parentheses (may not do what you expect!)
+> — Without parentheses (may not do what you expect!)
 SELECT * FROM products
 WHERE category = 'Beverages' OR category = 'Food' AND price > 5;
 
--- With parentheses (clear intent)
+> — With parentheses (clear intent)
 SELECT * FROM products
 WHERE (category = 'Beverages' OR category = 'Food') AND price > 5;
 ```
@@ -176,12 +172,12 @@ WHERE store_city IN ('New York', 'Long Island City', 'Brooklyn');
 
 **LIKE** - Pattern matching:
 ```sql
--- % matches any sequence of characters
+> — % matches any sequence of characters
 SELECT *
 FROM products
 WHERE product_name LIKE '%Coffee%';
 
--- _ matches a single character
+> — _ matches a single character
 SELECT *
 FROM products
 WHERE product_name LIKE 'Latte _g';  -- Matches 'Latte Lg', 'Latte Rg'
@@ -207,10 +203,10 @@ ORDER BY unit_price;  -- Ascending by default
 ### Ascending vs. Descending
 
 ```sql
--- Ascending (A to Z, 1 to 100)
+> — Ascending (A to Z, 1 to 100)
 ORDER BY product_name ASC;
 
--- Descending (Z to A, 100 to 1)
+> — Descending (Z to A, 100 to 1)
 ORDER BY unit_price DESC;
 ```
 
@@ -229,7 +225,7 @@ This sorts first by category (A to Z), then within each category by price (highe
 LIMIT restricts the number of rows returned:
 
 ```sql
--- Get the 10 most expensive products
+> — Get the 10 most expensive products
 SELECT product_name, unit_price
 FROM products
 ORDER BY unit_price DESC
@@ -241,7 +237,7 @@ LIMIT 10;
 Skip rows before returning results:
 
 ```sql
--- Get products 11-20 (for pagination)
+> — Get products 11-20 (for pagination)
 SELECT product_name, unit_price
 FROM products
 ORDER BY unit_price DESC
@@ -253,11 +249,11 @@ LIMIT 10 OFFSET 10;
 DISTINCT removes duplicate rows:
 
 ```sql
--- List all unique product categories
+> — List all unique product categories
 SELECT DISTINCT product_category
 FROM products;
 
--- Unique combinations
+> — Unique combinations
 SELECT DISTINCT store_city, store_state_province
 FROM stores;
 ```
@@ -326,7 +322,7 @@ These building blocks will be the foundation for everything we do with SQL!
 ## Quick Reference
 
 ```sql
--- Complete SELECT syntax covered in this chapter
+> — Complete SELECT syntax covered in this chapter
 SELECT [DISTINCT] column1 [AS alias], column2, ...
 FROM table_name
 WHERE condition1 [AND|OR condition2 ...]
