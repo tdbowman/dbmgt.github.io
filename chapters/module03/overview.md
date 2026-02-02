@@ -33,8 +33,11 @@ By the end of this module, you will be able to:
 ## Readings
 
 **Required:**
-- Rob - Chapter 4 (Entity-Relationship Modeling)
+- Rob - Chapter 4 (ER Modeling) - Canvas Download
+- Vidhya - Chapter 2 (Data Models) - <a href="https://ebookcentral.proquest.com/lib/dom/reader.action?docID=5248352&ppg=10#ppg=36" target="_blank">Ebook</a>
 
+*Extra Resources*
+- Silberschatz - Chapter 6 (Database Design Using ER Model) - Canvas Download
 ---
 
 Let's begin with [ER Modeling](er-modeling.md)

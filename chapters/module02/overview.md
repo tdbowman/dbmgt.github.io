@@ -41,11 +41,10 @@ By the end of this module, you will be able to:
 ## Readings
 
 **Required:**
-- Rob - Chapter 3 (The Relational Database Model)
-- Silberschatz - Chapter 2 (Introduction to the Relational Model)
-
-**Recommended:**
-- Watt - Chapter 7 (The Relational Data Model)
+- Watt - Chapter 7 (The Relational Data Model) - <a href="https://opentextbc.ca/dbdesign01/chapter/chapter-7-the-relational-data-model/" target="_blank">Ebook</a> 
+- Garcia-Molina - Chapter 1 (The Worlds of Database Systems) - Canvas Download
+- Rob - Chapter 3 (The Relational Database Model) - Canvas Download
+- Silberschatz - Chapter 2 (Introduction to the Relational Model) - Canvas Download
 
 ---
 

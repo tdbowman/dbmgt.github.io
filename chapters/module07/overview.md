@@ -26,7 +26,12 @@ By the end of this module, you will be able to:
 ## Readings
 
 **Required:**
-- Rob - Chapter 8 (Advanced SQL)
+- Rob - Chapter 8 (Advanced SQL) - Canvas Download
+- Silberschatz - Chapter 5 (Advanced SQL) - Canvas Download
+- PostgreSQL: Documentation: Advanced Postgres SQL Features <a href="https://www.postgresql.org/docs/7.1/advanced.html" target="_blank">Docs</a>
+- PostgreSQL: Advanced Features: <a href="https://www.postgresql.org/message-id/attachment/43855/advanced.pdf" target="_blank">Docs</a>
+- PostgreSQL Tutorials: <a href="https://www.postgresqltutorial.com/" target="_blank">Tutorials</a>
+
 
 ---
 

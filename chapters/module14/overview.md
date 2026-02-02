@@ -25,6 +25,12 @@ By the end of this module, you will be able to:
    - Privacy by design
    - Data governance
 
+## Readings
+
+See Canvas for resources.
+
+
+
 ## Assignments
 
 - **Assignment 3** - Advanced Database Features and Performance Tuning

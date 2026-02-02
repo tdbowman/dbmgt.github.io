@@ -25,7 +25,12 @@ By the end of this module, you will be able to:
 
 ## Readings
 
-See Canvas for this week's resources.
+- Rob, P. & Coronel, C. (2020). Chapter 15 - Database Connectivity and Web Technologies. Canvas Download
+- Cloud-based vs Traditional databases: Which one should you choose? - <a href="https://wearebrain.com/blog/cloud-based-vs-traditional-databases-comparison" target="_blank">Comparisons</a>
+- What is Flask Python? <a href="https://pythonbasics.org/what-is-flask-python/" target="_blank">Flask</a>
+- How to create your first web application using Flask and Python - <a href="https://www.digitalocean.com/community/tutorials/how-to-create-your-first-web-application-using-flask-and-python-3" target="_blank">Tutorial</a>
+- How to use a PostgreSQL database in a Flask application -  <a href="https://www.digitalocean.com/community/tutorials/how-to-use-a-postgresql-database-in-a-flask-application" target="_blank">PostgreSQL and Flask</a>
+
 
 ---
 

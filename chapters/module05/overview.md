@@ -35,7 +35,14 @@ By the end of this module, you will be able to:
 ## Readings
 
 **Required:**
-- Rob - Chapter 7 (Introduction to SQL)
+- Vidhya - Chapter 4 (SQL Fundamentals) - <a href="https://ebookcentral.proquest.com/lib/dom/reader.action?docID=5248352&ppg=10#ppg=84" target="_blank">Ebook</a>
+- Rob - Chapter 7 (Introduction to SQL) - Canvas Download
+
+*Extra Resources:*
+- PostgreSQL: Documentation: 16: SQL Commands - <a href="https://www.postgresql.org/docs/current/sql-commands.html" target="_blank">Docs</a>
+- W3C Schools - PostgreSQL Tutorial - <a href="https://www.w3schools.com/postgresql/postgresql_intro.php" target="_blank">W3Schools</a>
+- Jupyter Notebook (I created) for Basic SQL Commands - Cheat Sheet <a href="https://github.com/tdbowman/INF751-DBManagement/blob/main/SQL_Cheat_Sheet.ipynb" target="_blank">GitHub</a>
+
 
 ---
 

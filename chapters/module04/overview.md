@@ -33,7 +33,12 @@ By the end of this module, you will be able to:
 ## Readings
 
 **Required:**
-- Rob - Chapter 5 (Normalization)
+- Silberschatz - Chapter 6 (Normalization of Database Tables) - Canvas Download
+- Watt - Chapter 12 (Normalization) <a href="https://opentextbc.ca/dbdesign01/chapter/chapter-12-normalization/" target="_blank">Ebook</a>
+ 
+*Extra Resources:*
+- Gomede - Understanding Database Normalization: From First to Sixth Normalization - Canvas Download
+
 
 ---
 
