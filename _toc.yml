@@ -10,8 +10,8 @@ parts:
         title: Overview
       - file: chapters/module01/what-is-database.md
         title: What is a database?
-      - file: chapters/module01/installing-postgres.md
-        title: Installing PostgreSQL
+      - file: chapters/module01/setup-postgresql.md
+        title: Setting Up PostgreSQL
       - file: chapters/module01/setup-dbeaver.md
         title: Setting Up DBeaver
   - caption: 02 - Relational Database Foundations
